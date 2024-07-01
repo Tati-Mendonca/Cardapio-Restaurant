@@ -1,72 +1,115 @@
-.modal-overlay {
-    position: fixed;
-    z-index: 1;
-    left: 0;
+.modal {
+    border: none;
+    width: 97.62vw;
     top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+    height: 95vh;
+    background-color: var(--transparent);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.modal-overlay .modal-content {
-    background-color: white;
-    padding: 2rem 5rem 2rem 3rem;
-    display: flex;
+
+.modal .modal-content {
+    background-color: var(--white);
+    padding: 2rem;
+    margin: 3rem;
     border-radius: 0.938rem;
-    align-items: center;
+    width: 30%;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 31.25rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.modal-overlay .modal-content .close {
-    color: #aaa;
-    right: 25.5rem;
-    top: 8rem;
-    position: absolute;
-    font-size: 28px;
+.modal .modal-content .modal-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.modal .modal-content .modal-header h2 {
+    font-size: 1.75rem;
+    top: -0.7rem;
+    position: relative;
+}
+
+.modal .modal-content .modal-header .close {
+    color: var(--shadown-medium);
+    top: -1.5rem;
+    position: relative;
+    font-size: 1.75rem;
     font-weight: bold;
     cursor: pointer;
 }
 
-.modal-overlay .modal-content input {
 
+.modal .modal-content .input-container {
     width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.modal .modal-content .input-container input {
     border-radius: 8px;
-    padding: 1em 1em 1em 0.5em;
-    border: 2px solid #c6c5c5c5;
-    color: rgba(0, 0, 0, 0.9);
-    line-height: 1.313rem;
+    padding-right: -10px;
+    border: 2px solid var(--shadown);
+    color: ver(--transparent);
+    resize: vertical;
+    padding: 0.8rem;
+    margin: 0 0 0.313rem 0;
     font-size: 1em;
-    margin: 0.188rem 0 0.313rem 0;
 }
 
-.modal-overlay .modal-content label {
-    color: #242424;
+.modal .modal-content .input-container label {
+    color: var(--black);
     font-weight: 600;
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
 }
 
-
-.modal-overlay .modal-content h2 {
-    font-size: 1.7em;
-}
-
-.modal-overlay .modal-content .btn-secondary {
+.btn-secondary {
+    background-color: var(--color2);
     position: initial;
-    width: 105.5%;
     margin-top: 20px;
     border-radius: 8px;
-    padding: 0.80rem;
+    padding: 0.50rem 0;
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
-.modal-overlay .modal-content .btn-secondary:hover {
-    background-color: #3a44f8;
+.btn-secondary:hover {
+    background-color: var(--color1);
     transform: scale(1);
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .modal {
+        width: auto;
+    }
+
+    .modal .modal-content {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .modal .modal-content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .modal {
+        width: auto;
+        height: 99vh;
+    }
+
+    .modal .modal-content {
+        width: 60%;
+    }
 }

@@ -1,0 +1,65 @@
+.navbar {
+    background-color: var(--color3);
+    padding: 0.313rem 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--black);
+}
+
+.navbar button {
+    background-color: var(--black);
+    border: none;
+    border-radius: 5px;
+    padding: 0.625rem 0.938rem;
+    color: var(--color5);
+    font-weight: 700;
+    transition: all 0.1s linear 0.1s;
+}
+
+.navbar button:hover {
+    background-color: rgba(0, 0, 0, 0.912);
+    transform: scale(1);
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 0.6rem 1rem;
+    }
+
+    .navbar h1 {
+        font-size: 1.8rem;
+    }
+
+    .navbar button {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .navbar {
+        padding: 0.9rem 1.3rem;
+    }
+
+    .navbar h1 {
+        font-size: 2rem;
+    }
+
+    .navbar button {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navbar {
+        padding: 1rem 1.8rem;
+        font-size: 1.3rem;
+    }
+
+    .navbar button {
+        font-size: 1.3rem;
+    }
+}
