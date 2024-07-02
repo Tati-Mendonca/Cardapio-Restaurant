@@ -5,6 +5,7 @@ import { useFoodData } from "./services/useFoodData";
 import { CreateModal } from "./components/create-modal/CreateModal";
 import Navbar from "./components/navbar/navbar";
 import Notfound from "./components/not-found/not-found";
+import Footer from "./components/footer/footer";
 
 function App() {
   const { data, isError, isLoading }  = useFoodData();
@@ -18,7 +19,8 @@ function App() {
     <>
       <Navbar handleOpenModal={handleOpenModal}/>
       <div className="container">
-        <h1>Cardápio</h1>
+       <h1>Cardápio</h1>
+       <div className="error">
         <div className="card-grid">
           {data?.map((foodData, index) => (
             <div key={index}>
@@ -30,11 +32,12 @@ function App() {
             </div>
           ))}
         </div>
-       
         {isLoading && 'carregando...'}
         {isError && <Notfound />}
+        </div>
         {isModalOpen && <CreateModal closeModal={handleOpenModal} />}
       </div>
+      <Footer />
     </>
   );
 }

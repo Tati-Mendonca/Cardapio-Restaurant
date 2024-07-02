@@ -13,15 +13,32 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
-    margin-bottom: 3.438rem;
+}
+
+.error {
+    align-items: center;
+    min-height: calc(100vh - 12.33rem);
 }
 
 @media screen and (max-width: 480px) {
     .card-grid {
         grid-template-columns: 1fr;
     }
+
+    .error {
+        min-height: calc(100vh - 14.45rem);
+        padding-bottom: 3rem;
+    }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .error {
+        min-height: calc(100vh - 13.33rem);
+    }
+}
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    .error {
+        min-height: calc(100vh - 14.45rem);
+    }
+}

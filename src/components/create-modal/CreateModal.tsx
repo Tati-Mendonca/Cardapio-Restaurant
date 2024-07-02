@@ -10,7 +10,6 @@ export function CreateModal({ closeModal }: ModalProps) {
   const { mutate, isSuccess } = useFoodDataMutate();
 
   const submit = () => {
-        
     const foodData: FoodData = {
       title,
       price,
@@ -21,7 +20,6 @@ export function CreateModal({ closeModal }: ModalProps) {
       alert("Campo obrigatório está vazio")
       return
     }
-
 
     mutate(foodData);
   };
