@@ -33,7 +33,7 @@ Você precisará usar o Node.js
 
 Clonar o projeto
 
- $ git clone https://github.com/Tati-Mendonca/app-ecommerce.git
+ $ git clone https://github.com/Tati-Mendonca/Cardapio-Virtual-Front.git
 
 Instalar as dependências do projeto
 
