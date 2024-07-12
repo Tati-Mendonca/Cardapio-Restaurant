@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sobre o projeto
 
-Currently, two official plugins are available:
+Neste projeto o desafio foi o praticar o desenvolvimento Full-Stak de um sistema de cardapio virtual utilizando Java, React e Typescript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
-## Expanding the ESLint configuration
+## Objetivo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O objetivo deste projeto foi construir uma API, onde o dono do restaurante pode cadastrar e visualizar fotos, nome e preço de cada produto disponivel em seu restaurante.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Projeto
+Visualize o projeto completo aqui: [(test-mks-kappa.vercel.app)](https://test-mks-kappa.vercel.app/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![mks-gif](https://github.com/Tati-Mendonca/app-ecommerce/assets/97405991/a440153b-5d81-4b4b-9c73-14047161303d)
+
+## Tecnologias utilizadas
+
+- HTML
+- CSS
+- Typescript
+- Node.js
+- Git e GitHub
+- Axios
+- React Querie
+
+## Como usar
+
+Você precisará usar o Node.js
+
+Clonar o projeto
+
+ $ git clone https://github.com/Tati-Mendonca/app-ecommerce.git
+
+Instalar as dependências do projeto
+
+ $ npm install or yarn
+
+Iniciar a aplicação
+
+ $ npm start or yarn start
+
