@@ -18,3 +18,10 @@ footer a:visited,
 a:hover {
     color: var(--color1);
 }
+
+
+@media screen and (max-width: 480px) {
+    footer {
+        margin-top: 1.91rem;
+    }
+}

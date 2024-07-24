@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -10,12 +10,11 @@ body {
 }
 
 :root {
-  --color1: #1693a5;
-  --color2: #45b5c4;
-  --color3: #7ececa;
+  --color1: #d94a4a;
+  --color3: #F2B4AE;
   --color4: #a0ded6;
-  --color5: #c7ede8;
-  --black: #1c1c1c;
+  --color5: #F2DEA0;
+  --black: #1C261E;
   --white: #ffffff;
   --shadown: #c6c5c5c5;
   --shadown-medium: #aaa;

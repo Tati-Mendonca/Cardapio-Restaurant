@@ -6,6 +6,7 @@
     width: 250px;
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: var(--white);
 }
 
 .card img {
@@ -15,9 +16,12 @@
 }
 
 .card p {
-    padding: 0.7rem;
+    font-size: 1.3rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
 .card h2 {
-    padding: 0.7rem 0.7rem 0 0.7rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
 }
