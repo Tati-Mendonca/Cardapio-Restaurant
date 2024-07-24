@@ -13,7 +13,7 @@ O objetivo deste projeto foi construir uma API, onde o dono do restaurante pode 
 
 
 ## Projeto
-Visualize o projeto completo aqui: [(test-mks-kappa.vercel.app)](https://test-mks-kappa.vercel.app/)
+Visualize o projeto completo aqui: https://tati-mendonca.github.io/Cardapio-Virtual-Front/
 
 ![mks-gif](https://github.com/Tati-Mendonca/app-ecommerce/assets/97405991/a440153b-5d81-4b4b-9c73-14047161303d)
 
