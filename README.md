@@ -3,19 +3,17 @@
 
 Neste projeto o desafio foi o praticar o desenvolvimento Full-Stak de um sistema de cardapio virtual utilizando Java, React e Typescript.
 
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
-
 ## Objetivo
 
-O objetivo deste projeto foi construir uma API, onde o dono do restaurante pode cadastrar e visualizar fotos, nome e preço de cada produto disponivel em seu restaurante.
+O objetivo deste projeto foi desenvolver uma API para um pequeno restaurante na Vila Madalena, que oferece um menu sustentável utilizando produtos sazonais. Como o cardápio precisa ser alterado frequentemente para adaptar os pratos e utilizar o que tem de melhor e mais fresco no mercado. Criei um cardápio virtual que permite ao chef cadastrar e visualizar, de forma rápida e prática, fotos, nomes e preços dos produtos oferecidos em seu restaurante.
 
+## Protótipo
+<p align="center">
+<img loading="lazy" src="https://i.ibb.co/X8BNjFk/prototipo.png" alt="prototipo"/>
+</p>
 
 ## Projeto
 Visualize o projeto completo aqui: https://tati-mendonca.github.io/Cardapio-Virtual-Front/
-
-![mks-gif](https://github.com/Tati-Mendonca/app-ecommerce/assets/97405991/a440153b-5d81-4b4b-9c73-14047161303d)
 
 ## Tecnologias utilizadas
 
